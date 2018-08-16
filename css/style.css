@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 1em;
+	font-family: sans-serif;
+	padding: 2em;
+}
+
+img {
+	max-width: 100%;
+}
+
+.video-wrap {
+	position: relative;
+}
+
+.slick-arrow {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	transform: translateY(-50%);
+	font: 0/0 a;
+	color: transparent;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.slick-prev {
+	left: 0;
+}
+.slick-next {
+	right: -40px;
+}
